@@ -1,0 +1,29 @@
+.category-panel Button{
+  text-transform: capitalize !important;
+}
+
+.nav li .submenu{ visibility: hidden; z-index: 1000;}
+.nav li .submenu button{font-weight: 500 !important;}
+.nav li:hover .submenu{opacity: 1 !important; visibility: inherit;}
+.nav li .submenu li:hover button{color: blueviolet !important;}
+
+.nav li .submenu li .submenu{ top: 0px !important; left: 120% !important; opacity: 0 !important;}
+.nav li .submenu li:hover .submenu{ left: 100% !important; opacity: 1 !important;}
+.nav li .submenu li .submenu button{color: rgba(0, 0, 0,0.8) !important;}
+.nav li .submenu li .submenu button:hover{color: blueviolet !important;}
+
+.col-2 .link{
+  text-transform: capitalize !important;
+  font-weight: 550 !important;
+}
+
+.submenu ul{
+  padding-inline-start: 0 !important;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  list-style: none;
+}
+
+.submenu .link{
+  text-transform: capitalize !important;
+}

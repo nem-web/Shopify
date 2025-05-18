@@ -1,0 +1,47 @@
+.productItem .title {line-height: 18px;}
+
+/* .productItem{
+  width: 216.83px;
+  height: 364.6px;
+} */
+
+.discount {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #9204b9;
+  font-weight: 600;
+  color: white;
+  padding: 3px 6px;
+  font-size: 12px;
+  border-radius: 11px;
+}
+
+.productItem .actions .btn{
+  border-radius: 100%;
+  background: white;
+  color: black;
+}
+
+
+.productItem .actions .btn:hover{
+  border-radius: 100%;
+  background: rgb(243, 3, 223);
+  color: white;
+  
+}
+
+.productItem .actions button:hover svg{pointer-events: none !important;}
+
+.oldPrice {
+  text-decoration: line-through;
+  color: #3c383d;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.newPrice {
+  color: #9204b9;
+  font-weight: 600;
+  font-size: 15px;
+}

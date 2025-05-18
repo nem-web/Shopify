@@ -1,0 +1,11 @@
+.searchBox input::placeholder{color: #282727 !important;}
+
+.searchBox input {
+  border: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.MuiBadge-badge{
+  background-color: #ad26d3 !important;
+}
